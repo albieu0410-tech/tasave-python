@@ -2,6 +2,7 @@
 name = "tasave-python"
 version = "0.1.0"
 description = "Python client for the TasaVE Venezuelan exchange rate API"
+readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
 keywords = ["venezuela", "exchange-rate", "bcv", "bolivar"]
@@ -14,7 +15,7 @@ dependencies = [
 dev = ["pytest>=8", "pytest-asyncio>=0.24", "respx>=0.21"]
 
 [project.urls]
-Homepage = "https://tasave.com"
+Homepage = "https://tasave.sudelca.com"
 Repository = "https://github.com/albieu0410-tech/tasaVE"
 
 [build-system]

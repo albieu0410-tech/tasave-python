@@ -5,7 +5,7 @@ import httpx
 from .exceptions import TasaVEError
 from .models import BcvRate, ConvertResult, HistoryEntry, ParallelRate, Rate, Status
 
-_BASE_URL = "https://api.tasave.com"
+_BASE_URL = "https://tasave.sudelca.com"
 
 
 class AsyncRatesResource:
